@@ -5,6 +5,7 @@ function guardar() {
     let i = document.getElementById("imagen").value
 
 
+    
     let producto = {
         nombre: n,
         precio: p,
