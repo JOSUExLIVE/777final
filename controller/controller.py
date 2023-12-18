@@ -59,6 +59,7 @@ def detallesdelCarro(idCarro):
     
     
 
+
 def  recibeActualizarCarro(marca, modelo, year, color, puertas, favorito, nuevoNombreFile, idCarro):
         conexion_MySQLdb = connectionBD()
         cur = conexion_MySQLdb.cursor(dictionary=True)
